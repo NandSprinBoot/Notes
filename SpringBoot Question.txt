@@ -1,0 +1,105 @@
+1. Spring Boot Basics and Core Concepts
+What is the difference between Spring Boot and Spring MVC?
+How does Spring Boot handle external configuration properties?
+Explain the difference between @Component, @Service, @Repository, and @Controller.
+What is the purpose of @SpringBootApplication annotation?
+What is the role of the application.properties or application.yml file in a Spring Boot application?
+
+===============================================================2. Spring Boot Auto-Configuration=================================
+
+Explain how Spring Boot’s auto-configuration works.
+What are some common use cases where auto-configuration might not work as expected, and how would you handle it?
+How can you create your own custom auto-configuration in Spring Boot?
+
+
+==============================================================3. Spring Boot Actuator============================================
+
+What is Spring Boot Actuator and what are its main functionalities?
+How can you secure Spring Boot Actuator endpoints?
+How would you monitor application health in a production environment using Spring Boot Actuator?
+Explain the health and metrics endpoints provided by Spring Boot Actuator.
+
+=============================================================4. Spring Boot Data Access and JPA===================================
+
+How does Spring Boot integrate with JPA and Hibernate?
+What is the difference between @Entity and @Document in Spring Boot?
+Explain how @Transactional works in Spring Boot and when would you use it.
+How can you configure a multi-database connection in Spring Boot?
+
+=============================================================5. Spring Boot Security==============================================
+
+How do you implement authentication and authorization in a Spring Boot application?---uncomplete
+What is the difference between @PreAuthorize and @Secured in Spring Security?
+How would you secure a REST API in Spring Boot using JWT tokens?---uncomplete
+How does Spring Boot handle session management, and how would you configure it for stateless authentication?---uncomplete
+
+=============================================================6. Spring Boot and Microservices======================================
+
+What are some key differences between a monolithic Spring Boot application and a microservices architecture?
+How would you implement service discovery in a Spring Boot microservice environment?
+What are the benefits and challenges of using Spring Cloud with Spring Boot?
+How can you manage inter-service communication between Spring Boot microservices?
+
+=============================================================7. Spring Boot and Cloud Integration==================================
+
+
+How would you configure Spring Boot to run in the cloud (e.g., AWS, Azure, Google Cloud)?
+What is Spring Cloud Config and how can it be integrated with Spring Boot for externalized configuration management?
+How does Spring Boot support containerization (e.g., with Docker)?
+Explain how you would use Spring Boot with Kubernetes.
+
+=============================================================8. Performance and Optimization=======================================
+
+How can you improve the startup time of a Spring Boot application?
+What are some best practices for optimizing memory and CPU usage in Spring Boot applications?
+How do you handle connection pooling in Spring Boot for database connections?
+What are the best strategies for caching in Spring Boot applications?
+
+=============================================================9. Spring Boot Testing================================================
+
+What are the different types of tests you can write in a Spring Boot application?
+Explain the difference between @SpringBootTest, @WebMvcTest, and @DataJpaTest.
+How do you mock dependencies in Spring Boot tests?
+How would you test a Spring Boot application’s REST API?
+
+=============================================================10. Spring Boot Best Practices========================================
+
+What are some best practices for organizing packages and components in a Spring Boot application?
+How do you handle exception management in a Spring Boot application?
+How would you structure a Spring Boot application to be easily scalable and maintainable?
+What are some common pitfalls when building Spring Boot applications and how do you avoid them?
+
+=============================================================11. Advanced Topics===================================================
+
+How do you configure custom filters or interceptors in a Spring Boot application?
+What is Spring Boot's support for reactive programming, and how does it differ from traditional Spring MVC?
+What is the purpose of the CommandLineRunner and ApplicationRunner interfaces in Spring Boot?
+How does Spring Boot handle asynchronous operations, and what are some use cases?
+How do you implement custom annotations and make them work in a Spring Boot context?
+
+=============================================================12. Spring Boot with APIs=============================================
+
+What are the different ways to expose APIs in a Spring Boot application?
+How would you handle versioning for REST APIs in Spring Boot?
+What are some strategies for implementing rate limiting in Spring Boot APIs?
+How can you make your Spring Boot API documentation user-friendly (e.g., using Swagger)?
+
+=============================================================13. Spring Boot with Messaging=========================================
+
+How does Spring Boot integrate with message brokers like RabbitMQ or Kafka?
+What are the benefits of using asynchronous messaging with Spring Boot?
+How would you configure Spring Boot to listen to a queue from RabbitMQ or Kafka?
+What are the differences between Spring’s @JmsListener and @KafkaListener annotations?
+
+=============================================================14. Spring Boot for High Availability and Fault Tolerance================
+
+How would you design a highly available Spring Boot application?
+What are the patterns available for fault tolerance in Spring Boot (e.g., circuit breaker)?
+How would you handle distributed transactions across microservices using Spring Boot?
+How does Spring Boot support distributed tracing for microservices (e.g., using Zipkin or Sleuth)?
+
+
+=============================================================Extra Questions===========================================================
+
+Use of @RepositoryRestResource(path="", collectionResourceRel="")
+Explain SAGA pattern

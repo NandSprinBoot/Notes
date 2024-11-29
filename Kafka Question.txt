@@ -1,0 +1,7 @@
+springboot also support asynchronous transaction using webclient and kafka also support asynchronous transaction so which is best choice and why explain with realtime example
+
+explain multiple consumer real time bank example with kafka in code also
+
+how to partition topics in kafka explin with realtime example and code using springboot
+
+how to handle fault tolerance in kafka springboot explain with complete code
